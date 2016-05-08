@@ -1,0 +1,37 @@
+21 A - Senate Evacuation
+12 MULTI_NUMBER
+12 LOCAL_REGEXP
+22 A-(small|large).*[.]in
+6 CUSTOM
+5 a.out
+1
+0
+32 4
+2
+2 2
+3
+3 2 2
+3
+1 1 2
+3
+2 3 1
+
+68 Case #1: AB BA
+Case #2: AA BC C BA
+Case #3: C C AB
+Case #4: BA BB CA
+1
+10 main/rinor
+8 -Xmx512M
+4 Main
+11 rinor.TaskA
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2016.05.08
+29 Google Code Jam Round 1C 2016
+1
+30 net.egork.utils.io.InputReader
+31 net.egork.utils.io.OutputWriter
+1
+1
